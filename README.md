@@ -1,3 +1,17 @@
+# TD3 from demonstration
+
+## Code Usage 
+```
+python main_ddpgfd.py --policy "TD3" --env "Hopper-v2" --seed 500 --start_timesteps 10000 --exp_name "ddpgfd_lambda_1_100_episodes_prior" --oracle "Hopper-v2_baseline_with_model_GPU_3" --oracle_episodes 100 --lambda 1   &  
+
+```
+
+
+Uses the ideas from [paper](https://arxiv.org/pdf/1709.10089.pdf) to extend for TD3.
+
+
+
+
 # Addressing Function Approximation Error in Actor-Critic Methods
 
 PyTorch implementation of Twin Delayed Deep Deterministic Policy Gradients (TD3). If you use our code or data please cite the [paper](https://arxiv.org/abs/1802.09477).

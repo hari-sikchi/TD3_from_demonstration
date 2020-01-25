@@ -12,7 +12,7 @@ Uses the ideas from [paper](https://arxiv.org/pdf/1709.10089.pdf) to extend for 
 
 
 
-# Addressing Function Approximation Error in Actor-Critic Methods
+## Addressing Function Approximation Error in Actor-Critic Methods
 
 PyTorch implementation of Twin Delayed Deep Deterministic Policy Gradients (TD3). If you use our code or data please cite the [paper](https://arxiv.org/abs/1802.09477).
 
